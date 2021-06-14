@@ -2,15 +2,39 @@
 
 Please visit the website for competition details: https://www.geoscienceml.org/
 
+# Scoreboard - April 26 - 11:59 PM
+
+| **Team Name**        | **Score Type**        | **Date**                 | **Score (R<sup>2</sup>)** |
+|:---------------------|:---------------------:|:------------------------:|:-------------------------:|
+| 3ctsu                | Final02               | 4/26/2021                | 0.8219                    |
+| Cowboy               | Final                 | 4/26/2021                | 0.781131                  |
+| Team KT              | Final                 | 4/26/2021                | 0.737037                  |
+| ChevronQI            | Final02               | 4/26/2021                | 0.71626                   |
+| GeoCloud             | Final                 | 4/26/2021                | 0.71469                   |
+| Tongseng             | Final01               | 4/26/2021                | 0.706852                  |
+| 7seas                | Final                 | 4/26/2021                | 0.704548                  |
+| SLBIF                | Final                 | 4/26/2021                | 0.691443                  |
+| NeverStop            | Final                 | 4/26/2021                | 0.678878                  |
+| TAMUSEG              | Final01               | 4/26/2021                | 0.647979                  |
+| Pythoneers           | Final01               | 4/26/2021                | 0.45166                   |
+| CREWES               | Final                 | 4/26/2021                | 0.185875                  |
+| GeoGeeks             | Final                 | 4/26/2021                | 0.084128                  |
+
 # Installation Guide
 
 This is the installation guide for the serverless data available through 
 the GSH Geophysics on the cloud challenge. SEGY, rss and OpenVDS data is available:
 
-s3://geophysics-on-cloud/poseidon/seismic
+`s3://sagemaker-gitc2021/poseidon/seismic/`
 
 SEGY can be read directly using boto3 or s3fs, rss and OpenVDS+ require additional 
 python libraries to access.
+
+Well and horizon data are located here:
+
+`s3://sagemaker-gitc2021/poseidon/horizons`
+
+`s3://sagemaker-gitc2021/poseidon/wells`
 
 # RSS - Python Installation
 
